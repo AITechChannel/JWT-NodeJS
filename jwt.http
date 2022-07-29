@@ -1,0 +1,12 @@
+GET http://localhost:3000
+
+
+###
+POST http://localhost:3000/login
+
+Authorization: Beaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkwODIxODEsImV4cCI6MTY1OTA4MjIxMX0.Zly5CL0i46tqoQFsQOviFZOy-JE14GgFwdTQ_BcsucE
+
+
+###
+GET http://localhost:3000/product
+Authorization: Beaer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkwODM4MzYsImV4cCI6MTY1OTA4Mzg2Nn0.b65w66ibIO0C7Yo6amwD8OU9DCkCr-BTCBZCuVW4zUQ
